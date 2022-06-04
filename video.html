@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>Videos | About Me</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+<html>
+
+img {
+  border: 5px solid #555;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #CA6288;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  text-shadow: 3px 2px 1px grey;
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 19px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: pink;
+  padding: 90px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: Pink;
+  color: black;
+}
+
+/* Responsive layout - when the screen is less than 900px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+</style>
+</head>
+<body>
+
+<div class="header">
+  <marquee width="60%" direction="right" height="100px"><h1>My Videos</h1></marquee>
+</div>
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="biodata.html">Biodata</a>
+  <a href="experience.html">Experience</a>
+  <a href="education.html">Education</a>
+  <a href="family.html">Family</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="video.html">Videos</a>
+   
+</div>
+
+</style>
+<body>
+<body style="background-color:Lavender;">
+
+     <center><h1>My Cat Videos </h1></center>
+<center><video width="320" height="240" controls>
+  <source src=images/videos.mp4 type="video/mp4">
+  <source src=movie.ogg type="video/ogg">
+</video>
+<br>
+<br>
+
+<center><video width="320" height="240" controls>
+  <source src=images/videoss.mp4 type="video/mp4">
+  <source src=movie.ogg type="video/ogg">
+</video>
+<br>
+<br>
+
+<center><video width="320" height="240" controls>
+  <source src=images/videosss.mp4 type="video/mp4">
+  <source src=movie.ogg type="video/ogg">
+</video>
+<br>
+<br>
+<footer>
+  <p>Copyright © 2022 Najwa Shobri Official Website.</br> All Rights Reserved.</strong></br> Last update 06/06/2022.</p> 
+</footer>
+</body>
+</html>
